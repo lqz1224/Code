@@ -1,19 +1,5 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-
-"""
-Created on Oct 27, 2010
-Update  on 2017-05-18
-Logistic Regression Working Module
-Author: Peter Harrington/羊三/小瑶/BBruceyuan
-GitHub: https://github.com/apachecn/AiLearning
-"""
-
 import numpy as np
-
-
 # ------使用 Logistic 回归在简单数据集上的分类-----------
-
 def load_data_set():
     """
     加载数据集
@@ -239,7 +225,7 @@ def multi_test():
 
 if __name__ == '__main__':
     # 请依次运行下面三个函数做代码测试
-    #test()
-    colic_test()
+    test()
+    #colic_test()
     #multi_test()
 

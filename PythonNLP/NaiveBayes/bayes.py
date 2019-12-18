@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-
-
 # 我个人非常不喜欢 from numpy import *
 # 因为这样会和一些系统函数冲突，比如log, sum之类的
 import numpy as np
